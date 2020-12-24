@@ -1,0 +1,24 @@
+<div>
+  <span>Welcome</span>
+  <p appZoom [zoomSize]="20">zoom text</p>
+</div>
+
+<p *appWhile="condition">
+  first text
+</p>
+<p *appWhile="!condition">
+  second text
+</p>
+<button (click)="toggle()">Toggle</button>
+<div>
+<input appOnlyNumber >
+</div>
+<p 
+  appTooltip
+  [textElement]="'text'">tooltip</p>
+
+
+
+
+
+<router-outlet></router-outlet>
